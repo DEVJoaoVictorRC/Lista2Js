@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 2 de Exercícios</title>
+    <link rel="stylesheet" href="Lista2.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lista 2 - Exercícios</h1>
+        <p class="subtitle">Selecione um exercício para executar:</p>
+
+        <div class="controls">
+            <button class="control-btn" id="themeToggle">🌓 Alternar Tema</button>
+        </div>
+
+        <div id="status" class="status" style="display: none;">
+            Pronto para executar exercícios!
+        </div>
+
+        <div class="buttons-container">
+            <button class="btn" onclick="executarExercicio(1)">
+                <span class="btn-number">Ex1</span>
+                <span class="btn-text">Par ou Ímpar</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(2)">
+                <span class="btn-number">Ex2</span>
+                <span class="btn-text">Comparar Números</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(3)">
+                <span class="btn-number">Ex3</span>
+                <span class="btn-text">Fila Preferencial</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(4)">
+                <span class="btn-number">Ex4</span>
+                <span class="btn-text">Controle de Acesso</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(5)">
+                <span class="btn-number">Ex5</span>
+                <span class="btn-text">Sistema de Login</span>
+            </button>
+
+            <button class="btn" onclick="executarExercicio(6)">
+                <span class="btn-number">Ex6</span>
+                <span class="btn-text">Quiz de Conhecimentos</span>
+            </button>
+        </div>
+
+        <div class="info">
+            <p>💡 Clique em qualquer botão para executar o exercício correspondente</p>
+        </div>
+    </div>
+
+    <script src="Lista2.js"></script>
+</body>
+
+</html>
